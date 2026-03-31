@@ -20,8 +20,8 @@ const contactItems = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "Add your LinkedIn URL",
-    href: "#",
+    value: "sidhaarthragavan",
+    href: "https://www.linkedin.com/in/sidhaarthragavan",
     desc: "Professional profile and work history",
   },
   {
@@ -134,30 +134,7 @@ export default function Contact() {
               })}
             </div>
 
-            {/* Note about LinkedIn/GitHub */}
-            <div
-              className="reveal reveal-delay-5 mt-8 p-5"
-              style={{
-                backgroundColor: "rgba(201,168,76,0.08)",
-                border: "1px solid rgba(201,168,76,0.3)",
-              }}
-            >
-              <p
-                className="text-sm"
-                style={{ fontFamily: "var(--font-body)", color: "var(--color-foreground)" }}
-              >
-                <strong style={{ fontFamily: "var(--font-display)", color: "var(--color-navy)" }}>Note:</strong>{" "}
-                LinkedIn and GitHub links will be updated once profiles are set up. In the meantime,
-                reach out via email at{" "}
-                <a
-                  href="mailto:sragavan7@gatech.edu"
-                  style={{ color: "var(--color-navy)", fontWeight: 600 }}
-                >
-                  sragavan7@gatech.edu
-                </a>
-                .
-              </p>
-            </div>
+
           </div>
         </div>
       </section>

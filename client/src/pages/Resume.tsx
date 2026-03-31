@@ -113,8 +113,9 @@ export default function Resume() {
               <FileText size={16} />
               View Resume
             </a>
-            <button
-              onClick={() => alert("To download the resume, please add your PDF file and link it here.")}
+            <a
+              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663497014934/nQVsZPgArw26hCw8XBzz75/SR_Resume_8fad6b23.pdf"
+              download="SR_Resume.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium transition-all hover:bg-white/10"
               style={{
                 border: "1px solid rgba(255,255,255,0.4)",
@@ -124,7 +125,7 @@ export default function Resume() {
             >
               <Download size={16} />
               Download PDF
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -347,19 +348,20 @@ export default function Resume() {
               >
                 Download a PDF copy of this resume
               </p>
-              <button
-                onClick={() => alert("To enable PDF download, upload your resume PDF and update this button's link.")}
-                className="inline-flex items-center gap-2 px-8 py-3 text-sm font-medium transition-all hover:opacity-90"
-                style={{
-                  backgroundColor: "var(--color-navy)",
-                  color: "white",
-                  fontFamily: "var(--font-body)",
-                  fontWeight: 600,
-                }}
-              >
-                <Download size={16} />
-                Download Resume (PDF)
-              </button>
+              <a
+              href="https://d2xsxph8kpxj0f.cloudfront.net/310519663497014934/nQVsZPgArw26hCw8XBzz75/SR_Resume_8fad6b23.pdf"
+              download="SR_Resume.pdf"
+              className="inline-flex items-center gap-2 px-8 py-3 text-sm font-medium transition-all hover:opacity-90"
+              style={{
+                backgroundColor: "var(--color-navy)",
+                color: "white",
+                fontFamily: "var(--font-body)",
+                fontWeight: 600,
+              }}
+            >
+              <Download size={16} />
+              Download Resume (PDF)
+            </a>
             </div>
           </div>
         </div>
